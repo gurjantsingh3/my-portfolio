@@ -296,8 +296,8 @@ export const seoData: SEODataType = {
   title: 'Gurjant Singh',
   description: 'A passionate Backend Developer with 1+ years of experience.',
   author: 'Gurjant Singh',
-  image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
-  url: 'https://developer-portfolio-1hanzla100.vercel.app',
+  image: '',
+  url: 'https://gurjant-portfolio.vercel.app/',
   keywords: [
     'Gurjant',
     'Gurjant Singh',
