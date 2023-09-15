@@ -206,7 +206,18 @@ export const educationInfo: EducationType[] = [
   {
     schoolName: 'Ruhelkhand University',
     subHeader: 'Pursuing BA',
-    duration: 'August 2022 - current',
+    duration: 'present',
+    desc: '',
+    grade: '',
+    descBullets: [
+      // 'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
+      // 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    ],
+  },
+  {
+    schoolName: 'SBS Public Inter College',
+    subHeader: 'Intermediate',
+    duration: '2015-2018',
     desc: '',
     grade: '',
     descBullets: [
@@ -225,11 +236,11 @@ export const experience: ExperienceType[] = [
     desc: 'I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.',
   },
   {
-    role: 'Internship Backend',
+    role: 'Backend Intern',
     company: 'SFS Solution',
     companyLogo: '/img/icons/common/sfs.jpeg',
     date: 'Feb 2022 – July 2022',
-    desc: 'I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.',
+    desc: 'I worked as a Backend Intern where I had the opportunity to gain hands-on experience with Nodejs, a popular JavaScript library for building user interfaces. During my internship, I worked on various tasks as part of a larger project. This allowed me to apply my knowledge of Nodejs and learn new skills related to back-end development.',
     // descBullets: [
     // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
     // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -253,14 +264,16 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
+    image:'/img/icons/common/ng.png',
     name: 'Notarize-Genie',
-    desc: 'Worked  on  notarizegenie.com  as  a  backend  developer from scratch for online notarize documents using video conferences  with  dolby.io  and  implemented  payment gateway (Stripe) for invoices, payouts and handle subscription plan based with stripe. Used aws s3 bucket for store documents and video recording..',
+    desc: 'Web application that enables Remote Online Notarization connects signers to notaries via LIVE audio/video technology on a computer, tablet or mobile device.',
     // github: 'https://github.com/1hanzla100/developer-portfolio',
     link: 'https://www.notarizegenie.com/',
   },
   {
+    image:'/img/icons/common/str.png',
     name: 'Backup-Manager',
-    desc: 'Worked on backup manager backend that is created using Python Django. Mapping resellers & clients  data on server side .',
+    desc: 'A web application that manage billing, reports, and reseller. It build with Next.js, Django & Django REST Framework. Mapping resellers & clients  data on server side .',
     link: 'https://www.notarizegenie.com/',
   },
   // {

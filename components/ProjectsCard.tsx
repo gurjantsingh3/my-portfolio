@@ -3,13 +3,16 @@ import { Card, CardBody, Col, Button } from 'reactstrap';
 import Fade from 'react-reveal/Fade';
 import { ProjectType } from '../types/sections';
 
-const ProjectsCard = ({ name, desc, github, link }: ProjectType) => {
+const ProjectsCard = ({ name, desc, github, link,image }: ProjectType) => {
   return (
     <Col lg="6">
       <Fade bottom duration={2000}>
         <Card className="shadow-lg--hover shadow mt-4">
           <CardBody>
-            <div className="d-flex px-3">
+              <div className='w-[100%] text-center'>
+                <img src={image} alt=""  width={"300px"} height={"200px"} />
+              </div>
+            <div className="d-flex flex-col px-3">
               <div className="pl-4">
                 <h3>{name}</h3>
                 <p className="description mt-3">{desc}</p>
