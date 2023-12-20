@@ -14410,7 +14410,7 @@ button.bg-lighter:focus {
 }
 
 .bg-gradient-info {
-	background: linear-gradient(35deg, #11cdef 0, #1171ef 100%) !important;
+	background: #172b4d;
 }
 
 .bg-gradient-warning {
@@ -14705,7 +14705,7 @@ button.section-darker:focus {
 }
 
 .bg-gradient-info {
-	background: linear-gradient(35deg, #11cdef 0, #1171ef 100%) !important;
+	background-color: #172b4d;
 }
 
 .bg-gradient-warning {

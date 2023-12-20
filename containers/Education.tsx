@@ -21,14 +21,14 @@ const Education = () => {
           <Row className="row-grid align-items-center">
             {educationInfo.map((info) => {
               return (
-                <Col className="order-lg-1" lg="6" key={info.schoolName}>
+                <Col className="order-lg-1 pb-5" lg="6" key={info.schoolName}>
                   <EducationCard {...info} />
                 </Col>
               );
             })}
           </Row>
         </Container>
-        <div className="separator separator-bottom separator-skew zindex-100">
+        {/* <div className="separator separator-bottom separator-skew zindex-100">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             preserveAspectRatio="none"
@@ -39,7 +39,7 @@ const Education = () => {
           >
             <polygon className="fill-white" points="2560 0 2560 100 0 100" />
           </svg>
-        </div>
+        </div> */}
       </section>
     )
   );

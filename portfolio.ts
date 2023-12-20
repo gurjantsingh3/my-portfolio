@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: 'Gurjant Singh',
   title: "Hi all, I'm Gurjant",
   description:
-    "Meet Gurjant Singh, with a year immersed in coding realms, I specialize in backend brilliance. Proficient in Nest.js & Express.js, I architect robust APIs that power seamless interactions. Node.js is my playground for high-performance server-side magic, From optimizing data flow to ensuring top-notch security, I engineer solutions that align code with functionality. Let's code the future together—one efficient API at a time.",
+    "Meet Gurjant Singh, with a year immersed in coding realms, I specialize in backend brilliance. Proficient in Nest.js , Express.js & Django REST Framework, I architect robust APIs that power seamless interactions. Node.js is my playground for high-performance server-side magic, From optimizing data flow to ensuring top-notch security, I engineer solutions that align code with functionality. Let's code the future together—one efficient API at a time.",
   resumeLink:
     'https://drive.google.com/file/d/1k2fUTUHaRaSZv1jbIhlfMrDThBZL-aQR/view?pli=1',
 };
@@ -264,15 +264,27 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
-    image:'/img/icons/common/ng.png',
+    image: '/img/icons/common/ng.png',
     name: 'Notarize-Genie',
     desc: 'Web application that enables Remote Online Notarization connects signers to notaries via LIVE audio/video technology on a computer, tablet or mobile device.',
     // github: 'https://github.com/1hanzla100/developer-portfolio',
     link: 'https://www.notarizegenie.com/',
   },
   {
-    image:'/img/icons/common/str.png',
+    image: '/img/icons/common/str.png',
     name: 'Backup-Manager',
+    desc: 'A web application that manage billing, reports, and reseller. It build with Next.js, Django & Django REST Framework. Mapping resellers & clients  data on server side .',
+    link: 'https://www.notarizegenie.com/',
+  },
+  {
+    image: '/img/icons/common/mtb.png',
+    name: 'MTB-Application',
+    desc: 'A web application that manage billing, reports, and reseller. It build with Next.js, Django & Django REST Framework. Mapping resellers & clients  data on server side .',
+    link: 'https://www.notarizegenie.com/',
+  },
+  {
+    image: '/img/icons/common/exc.jpeg',
+    name: 'Executer-Exchange  ',
     desc: 'A web application that manage billing, reports, and reseller. It build with Next.js, Django & Django REST Framework. Mapping resellers & clients  data on server side .',
     link: 'https://www.notarizegenie.com/',
   },
