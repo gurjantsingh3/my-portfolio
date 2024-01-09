@@ -13,9 +13,9 @@ import {
 
 export const greetings: GreetingsType = {
   name: 'Gurjant Singh',
-  title: "Hi all, I'm Gurjant",
+  title: "Hello, I'm Gurjant Singh",
   description:
-    "Meet Gurjant Singh, with a year immersed in coding realms, I specialize in backend brilliance. Proficient in Nest.js , Express.js & Django REST Framework, I architect robust APIs that power seamless interactions. Node.js is my playground for high-performance server-side magic, From optimizing data flow to ensuring top-notch security, I engineer solutions that align code with functionality. Let's code the future together—one efficient API at a time.",
+    "A backend developer with expertise in Node.js, Nest.js, Express.js, and Django. I specialize in architecting robust APIs that power seamless interactions. With a year of experience in coding, I have immersed myself in the realms of backend development. I excel in optimizing data flow and ensuring top-notch security, aligning code with functionality. Let's work together to shape the future with efficient APIs.",
   resumeLink:
     'https://drive.google.com/file/d/1k2fUTUHaRaSZv1jbIhlfMrDThBZL-aQR/view?pli=1',
 };
@@ -233,7 +233,7 @@ export const experience: ExperienceType[] = [
     company: 'MPS Infotech',
     companyLogo: '/img/icons/common/mps.jpeg',
     date: 'Aug 2022 – current',
-    desc: 'I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.',
+    desc: `working as a backend developer with Node.js (Nest.js and Express.js) and Python (Django). Working with these frameworks allows you to build robust and scalable web applications. It's also great that you have experience managing databases, as that is an essential aspect of backend development`,
   },
   {
     role: 'Backend Intern',
