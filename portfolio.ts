@@ -280,19 +280,19 @@ export const projects: ProjectType[] = [
     image: '/img/icons/common/str.png',
     name: 'Backup-Manager',
     desc: 'I played a pivotal role in the development of Backup Manager, a robust web application designed to streamline billing, reporting, and reseller management. Leveraging a tech stack that includes Next.js, Django, and Django REST Framework, I actively contributed to server-side data mapping for resellers and clients. The deployment was facilitated through Docker, ensuring scalability and efficiency. Notably, I integrated Stripe for seamless monthly billing processes for resellers, adding a secure and user-friendly payment gateway. ',
-    link: 'https://www.notarizegenie.com/',
+    link: 'https://portal.backupmanager.io/',
   },
   {
     image: '/img/icons/common/mtb.png',
     name: 'MTB-Application',
     desc: `As the backend developer for the MTB Application (MyTrueBank), I spearheaded the implementation of Django Admin and Django Rest Framework APIs for data management. My focus involved assigning banks' data to users based on pin codes, countries, states, and company names within the Django admin panel. I established a comprehensive database structure and provided an essential service for manual data import/export. Additionally, I ensured the seamless deployment of the application using Docker. MyTrueBank showcases my proficiency in backend development, database management, and deployment strategies.`,
-    link: 'https://www.notarizegenie.com/',
+    link: 'https://internal.app.mytruebank.com/',
   },
   {
     image: '/img/icons/common/erdf.png',
     name: 'Executor-Exchange  ',
     desc: 'In my role as a backend developer, I contributed significantly to the success of the Executor Exchange project, leveraging Directus as the primary backend framework. My responsibilities included intricate backend development tasks, ensuring the seamless functioning of the platform. Notably, I spearheaded the integration of a dynamic map feature for efficient county selection, enhancing the overall user experience. This project showcases my proficiency in backend development and underscores my ability to integrate complex functionalities seamlessly.',
-    link: 'https://www.notarizegenie.com/',
+    link: 'https://executorexchange.com/',
   },
   // {
   //   name: 'Technota (Forum)',
@@ -325,7 +325,7 @@ export const showContactUs: boolean = true;
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
   title: 'Gurjant Singh',
-  description: 'A passionate Backend Developer with 1+ years of experience.',
+  description: 'A passionate Backend Developer with 2+ years of experience.',
   author: 'Gurjant Singh',
   image: '',
   url: 'https://gurjant-portfolio.vercel.app/',
