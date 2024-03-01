@@ -21,7 +21,7 @@ export const greetings: GreetingsType = {
 };
 
 export const openSource = {
-  githubUserName: 'trgurjantsingh',
+  githubUserName: 'gurjant1',
 };
 
 export const contact = {};
