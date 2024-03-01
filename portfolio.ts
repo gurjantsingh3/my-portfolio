@@ -15,9 +15,9 @@ export const greetings: GreetingsType = {
   name: 'Gurjant Singh',
   title: "Hello, I'm Gurjant Singh",
   description:
-    "A backend developer with expertise in Node.js, Nest.js, Express.js, and Django. I specialize in architecting robust APIs that power seamless interactions. With a year of experience in coding, I have immersed myself in the realms of backend development. I excel in optimizing data flow and ensuring top-notch security, aligning code with functionality. Let's work together to shape the future with efficient APIs.",
-  resumeLink:
-    'https://drive.google.com/file/d/1k2fUTUHaRaSZv1jbIhlfMrDThBZL-aQR/view?pli=1',
+    "A backend developer with expertise in Node.js, Nest.js, Express.js, and Django. I specialize in architecting robust APIs that power seamless interactions. With a 2 year of experience in coding, Passionate about delivering high-quality web solutions with a strong foundation in Node.js. Committed to writing clean code, providing exceptional user experiences, and staying updated with industry trends for innovative solutions. Let's work together to shape the future with efficient APIs.",
+  // resumeLink:
+  // 'https://drive.google.com/file/d/1k2fUTUHaRaSZv1jbIhlfMrDThBZL-aQR/view?pli=1',
 };
 
 export const openSource = {
@@ -31,6 +31,7 @@ export const socialLinks: SocialLinksType = {
   linkedin: 'https://www.linkedin.com/in/gurjant-singh-539b47198/',
   github: 'https://github.com/trgurjantsingh',
   instagram: 'https://www.instagram.com/gurichahal_315',
+  gmail: 'mailto:tr.gurjant@gmail.com',
   // facebook: 'https://www.facebook.com/1hanzla100',
   // twitter: 'https://twitter.com/1hanzla100',
 };
@@ -64,10 +65,10 @@ export const skillsSection: SkillsSectionType = {
           skillName: 'JavaScript',
           iconifyTag: 'logos:javascript',
         },
-        // {
-        //   skillName: 'Reactjs',
-        //   iconifyTag: 'vscode-icons:file-type-reactjs',
-        // },
+        {
+          skillName: 'Reactjs',
+          iconifyTag: 'vscode-icons:file-type-reactjs',
+        },
         {
           skillName: 'TypeScript',
           iconifyTag: 'logos:typescript',
@@ -79,6 +80,10 @@ export const skillsSection: SkillsSectionType = {
         {
           skillName: 'Django',
           iconifyTag: 'vscode-icons:file-type-django',
+        },
+        {
+          skillName: 'NodeJs',
+          iconifyTag: 'vscode-icons:file-type-node',
         },
 
         {
@@ -105,14 +110,14 @@ export const skillsSection: SkillsSectionType = {
           skillName: 'AWS',
           iconifyTag: 'logos:aws',
         },
-        // {
-        //   skillName: 'Azure',
-        //   iconifyTag: 'logos:microsoft-azure',
-        // },
-        // {
-        //   skillName: 'Heroku',
-        //   iconifyTag: 'logos:heroku-icon',
-        // },
+        {
+          skillName: 'GraphQL',
+          iconifyTag: 'logos:graphql',
+        },
+        {
+          skillName: 'Stripe',
+          iconifyTag: 'logos:stripe',
+        },
         {
           skillName: 'PostgreSQL',
           iconifyTag: 'logos:postgresql',
@@ -129,10 +134,10 @@ export const skillsSection: SkillsSectionType = {
           skillName: 'MySql',
           iconifyTag: 'logos:mysql',
         },
-        // {
-        //   skillName: 'Cloudinary',
-        //   iconifyTag: 'logos:cloudinary',
-        // },
+        {
+          skillName: 'MongoDB',
+          iconifyTag: 'logos:mongodb',
+        },
         // {
         //   skillName: 'Nginx',
         //   iconifyTag: 'logos:nginx',
@@ -233,14 +238,15 @@ export const experience: ExperienceType[] = [
     company: 'MPS Infotech',
     companyLogo: '/img/icons/common/mps.jpeg',
     date: 'Aug 2022 – current',
-    desc: `working as a backend developer with Node.js (Nest.js and Express.js) and Python (Django). Working with these frameworks allows you to build robust and scalable web applications. It's also great that you have experience managing databases, as that is an essential aspect of backend development`,
+    desc: `
+    As a Backend Developer at MPS Infotech since August 2022, I am immersed in a continuous learning curve, progressing from foundational knowledge to actively contributing to live projects. Proficient in Node.js (Nest.js and Express.js) and Python (Django), I specialize in database management, seamlessly handling PostgreSQL, MySQL, and MongoDB. Additionally, I leverage Docker for efficient deployment. This journey reflects my dedication to ongoing improvement and the application of versatile skills in real-world scenarios.`,
   },
   {
     role: 'Backend Intern',
     company: 'SFS Solution',
     companyLogo: '/img/icons/common/sfs.jpeg',
     date: 'Feb 2022 – July 2022',
-    desc: 'I worked as a Backend Intern where I had the opportunity to gain hands-on experience with Nodejs, a popular JavaScript library for building user interfaces. During my internship, I worked on various tasks as part of a larger project. This allowed me to apply my knowledge of Nodejs and learn new skills related to back-end development.',
+    desc: 'I initiated my coding journey at SunFocus Solutions, where I underwent training as a Backend Developer. As a Backend Intern, I immersed myself in hands-on experiences with Node.js, a widely used JavaScript library for user interface development. Throughout my internship, I actively contributed to diverse tasks within larger projects, enabling me to not only apply my existing Node.js knowledge but also acquire new skills in the realm of backend development. This foundational experience at SunFocus Solutions marked the beginning of my coding career and laid the groundwork for my subsequent professional growth.',
     // descBullets: [
     // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
     // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -266,26 +272,26 @@ export const projects: ProjectType[] = [
   {
     image: '/img/icons/common/ng.png',
     name: 'Notarize-Genie',
-    desc: 'Web application that enables Remote Online Notarization connects signers to notaries via LIVE audio/video technology on a computer, tablet or mobile device.',
+    desc: 'As Backend Developer for Notarize-Genie, I actively shaped the development of a cutting-edge web application facilitating Remote Online Notarization. The platform seamlessly connects signers with notaries through live audio/video technology across various devices. My role involved the integration of Dolby.io for high-quality video processing and recording, enhancing the overall user experience. Additionally, I implemented a secure and efficient monthly subscription system for plan packages, utilizing the Stripe gateway for seamless transactions.',
     // github: 'https://github.com/1hanzla100/developer-portfolio',
     link: 'https://www.notarizegenie.com/',
   },
   {
     image: '/img/icons/common/str.png',
     name: 'Backup-Manager',
-    desc: 'A web application that manage billing, reports, and reseller. It build with Next.js, Django & Django REST Framework. Mapping resellers & clients  data on server side .',
+    desc: 'I played a pivotal role in the development of Backup Manager, a robust web application designed to streamline billing, reporting, and reseller management. Leveraging a tech stack that includes Next.js, Django, and Django REST Framework, I actively contributed to server-side data mapping for resellers and clients. The deployment was facilitated through Docker, ensuring scalability and efficiency. Notably, I integrated Stripe for seamless monthly billing processes for resellers, adding a secure and user-friendly payment gateway. ',
     link: 'https://www.notarizegenie.com/',
   },
   {
     image: '/img/icons/common/mtb.png',
     name: 'MTB-Application',
-    desc: 'A web application that manage billing, reports, and reseller. It build with Next.js, Django & Django REST Framework. Mapping resellers & clients  data on server side .',
+    desc: `As the backend developer for the MTB Application (MyTrueBank), I spearheaded the implementation of Django Admin and Django Rest Framework APIs for data management. My focus involved assigning banks' data to users based on pin codes, countries, states, and company names within the Django admin panel. I established a comprehensive database structure and provided an essential service for manual data import/export. Additionally, I ensured the seamless deployment of the application using Docker. MyTrueBank showcases my proficiency in backend development, database management, and deployment strategies.`,
     link: 'https://www.notarizegenie.com/',
   },
   {
-    image: '/img/icons/common/exc.jpeg',
-    name: 'Executer-Exchange  ',
-    desc: 'A web application that manage billing, reports, and reseller. It build with Next.js, Django & Django REST Framework. Mapping resellers & clients  data on server side .',
+    image: '/img/icons/common/erdf.png',
+    name: 'Executor-Exchange  ',
+    desc: 'In my role as a backend developer, I contributed significantly to the success of the Executor Exchange project, leveraging Directus as the primary backend framework. My responsibilities included intricate backend development tasks, ensuring the seamless functioning of the platform. Notably, I spearheaded the integration of a dynamic map feature for efficient county selection, enhancing the overall user experience. This project showcases my proficiency in backend development and underscores my ability to integrate complex functionalities seamlessly.',
     link: 'https://www.notarizegenie.com/',
   },
   // {

@@ -15979,6 +15979,14 @@ a.btn-icon-only {
 	border-color: #1da1f2;
 	box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
+
+.btn-gmail{
+	color: #fff;
+	background-color: #dd4b39;
+	border-color: #dd4b39;
+	box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
 .btn-twitter:hover {
 	color: #fff;
 	background-color: #1da1f2;
@@ -17404,7 +17412,7 @@ textarea[resize="horizontal"] {
 	.navbar-nav .nav-link-icon {
 		padding-left: 0.5rem !important;
 		padding-right: 0.5rem !important;
-		font-size: 1rem;
+		font-size: 2rem;
 		border-radius: 0.25rem;
 	}
 	.navbar-nav .nav-link-icon i {

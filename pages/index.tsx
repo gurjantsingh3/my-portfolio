@@ -27,7 +27,7 @@ export default function Home({
       <Greetings />
       <Skills />
       <Proficiency />
-      <Education />
+      {/* <Education /> */}
       <Experience />
       {/* <Feedbacks /> */}
       <Projects />
