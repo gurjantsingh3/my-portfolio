@@ -21,7 +21,7 @@ export const greetings: GreetingsType = {
 };
 
 export const openSource = {
-  githubUserName: 'gurjant1',
+  githubUserName: 'gurjantsingh3',
 };
 
 export const contact = {};
@@ -29,7 +29,7 @@ export const contact = {};
 export const socialLinks: SocialLinksType = {
   // url: 'https://1hanzla100.github.io/',
   linkedin: 'https://www.linkedin.com/in/gurjant-singh-539b47198/',
-  github: 'https://github.com/gurjant1',
+  github: 'https://github.com/gurjantsingh3',
   instagram: 'https://www.instagram.com/gurichahal_315',
   gmail: 'mailto:tr.gurjant@gmail.com',
   // facebook: 'https://www.facebook.com/1hanzla100',
